@@ -6,6 +6,7 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 14px;
 }
 
 .small-para {
@@ -17,11 +18,18 @@ body {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
+/* new selector */
+.para.small-para {
+  font-size: 14px;
+}
+
+#confirm-button {
+  background-color: green;
   color: white;
   font-weight: bold;
-} 
+}
+
+/* dleted .confirm */
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,7 +37,7 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text.child {  /* added .text */
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
