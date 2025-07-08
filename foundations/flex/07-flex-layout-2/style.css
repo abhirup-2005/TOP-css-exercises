@@ -27,3 +27,53 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* added line of code for soolution */
+body {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar {
+  flex: 1 0 300px;
+  padding: 16px;
+}
+.sidebar a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.content {
+  flex: 1;
+  display: flex;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+}
+.card {
+  flex: 0 0 300px;
+  padding: 16px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding-bottom: 16px;
+}
